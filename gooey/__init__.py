@@ -8,4 +8,4 @@ from gooey.gui.components.filtering.prefix_filter import PrefixTokenizers
 from gooey.gui.components.options import options
 from gooey.python_bindings import types
 types = types
-__version__ = '1.2.0-ALPHA'
+__version__ = '1.2.0.1'

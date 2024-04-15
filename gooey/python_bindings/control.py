@@ -191,8 +191,10 @@ def choose_hander(params: GooeyParams, cliargs: List[str]):
     Dispatches to the appropriate handler based on values
     found in the CLI arguments
     """
+    '''
     with open('tmp.txt', 'w') as f:
         f.write(str(sys.argv))
+    '''
     if '--gooey-validate-form' in cliargs:
         return validate_form(params)
     elif '--gooey-run-is-success' in cliargs or '--gooey-run-is-failure' in cliargs:
